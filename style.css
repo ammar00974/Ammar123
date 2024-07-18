@@ -1,0 +1,184 @@
+header{
+    background-color:slategray;
+    color: black;
+    padding-bottom: 10px;
+    align-content: center;
+    background-image: url();  
+    background-position: center;
+  background-size: 500px;
+    background-repeat: no-repeat;
+    
+}
+nav section{
+    float: right;
+    
+}
+
+header{ background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+background-position: left;
+background-size: 450px;
+}
+header li{
+    
+    text-transform: uppercase;
+    float:right;
+    padding: 30px;
+    text-decoration: solid;
+    align-content: center;
+    color: aliceblue;
+}
+header nav{
+     text-align: end;
+    color: black;
+   
+    padding-right: 50px;
+    align-content:right ;
+float: center;
+
+
+}
+nav ul li a:hover{
+    background-color: white;
+    color:black;
+
+}
+
+section div{
+    background-color:slategrey;
+    color: black;
+    padding-bottom: 1px;
+     text-align:center;
+     block-size: 100px;
+
+}
+body{
+    background-image: url(images/15\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    background-size:100vw 100vh;
+    image-resolution: 1000px;
+}
+
+footer{
+    text-align: center;
+    color: blueviolet;
+    text-size-adjust: 100px;
+    
+}
+footer section{
+    color:silver;
+    border-inline-start: 100px;
+}
+form{
+    text-align:center;
+    align-content:center;
+    float: center;
+    color:white ;
+    text-size-adjust: 100px;
+    padding: 10px;
+ 
+   
+
+}
+@media(max-width:768px){
+    .menu-toggle {
+        display:block;
+    }
+}
+.nav{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+.non.active{
+    display: flex;
+}
+nav ul{
+  flex-direction: column;
+  align-items: flex-start;  
+}
+nav ul li{
+    margin: 5px 0;
+}
+@media(max-width:768px){
+header{
+    flex-direction: column;
+    align-items: flex-start;}
+
+}
+nav ul{
+    text-align: left;
+}
+section{
+    padding: 30px 10px;
+
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+}
+.contact-info,
+.contact-form{
+    max-width: 100%;
+    text-align: center;
+
+}
+.image-container img{
+    max-width: 100%;
+}
+
+
+
+body {
+    color: white;
+    text-align:center;
+    padding: 10px; 
+}
+nav:hover{
+    background-color: black;
+    align-content: center;
+    /* background-image: url(images/rolex\ \(1\).webp); */
+    background-position: center;
+    background-image: cover;
+    background-image: no-repeat;
+    padding: -30px;
+    background-size: cover;
+    font-size: larger;
+    text-shadow: 10px;
+  
+}
+nav ul{
+    color:white;
+    border: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+    text-align: center;
+}
+section h2{
+    float: center;
+    align-content: center;
+   
+   
+}
+section div{
+    background-image: url(images/edi\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    padding: 300px;
+    background-attachment: fixed;
+    backface-visibility: px;
+text-align: center;
+
+
+
+}
+section div p{
+    align-content: top;
+    color: black;
+    text-overflow: 100px;
+    text-size-adjust: 100px;
+}
